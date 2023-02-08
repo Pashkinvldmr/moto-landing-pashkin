@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <!-- playsinline для автопроигрывания в Safari -->
+    <video src="batman.mp4" autoplay muted loop playsinline></video>
+    <header class="header">
+      <div class="container">
+        <a href="#" class="header-logo">MotoShop</a>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="styles/style.css">
-</head>
-
-<body>
-
-  <!-- header -->
-  <header class="header">
-    <div class="container">
-      <div class="flex-wrap">
-        <div class="header-logo">
-          <a href="">MotoShop</a>
-        </div>
-        <nav class="header-nav">
-          <a class="header-link" href="">Moto</a>
-          <a class="header-link" href="">Характеристики</a>
-          <a class="header-link" href="">Предзаказ</a>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">Мото</a></li>
+            <li><a href="#">Характеристики</a></li>
+            <li><a href="#">Предзаказ</a></li>
+          </ul>
         </nav>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- section about -->
-  <section class="about">
-    <div class="about-bg">
-      <div class="container">
-        <img class="about-img" src="images/img-about.png" alt="">
-        <h1 class="about-title">Motorola DynaTAC 8000X</h1>
-        <p class="about-text">Первый в мире переносной телефон.
-          До 30 минут разговора без проводов в любое время, в любом месте благодаря емкому аккумулятору.</p>
-        <span class="about-price">$3,995</span>
-        <button class="about-btn">Оформить предзаказ</button>
-      </div>
-    </div>
-  </section>
-</body>
+    <main>
+      <section class="desc">
+        <div class="container">
+          <img src="images/phone.png" alt="" class="desc-img" />
+          <h1 class="desc-title">Motorola DynaTAC 8000X</h1>
+          <p class="desc-text">
+            Первый в мире переносной телефон. До 30 минут разговора без проводов
+            в любое время, в любом месте благодаря емкому аккумулятору.
+          </p>
+          <span class="desc-price">$3,995</span>
+          <button class="btn">Оформить предзаказ</button>
+        </div>
+      </section>
 
+      <section class="lead">
+        <div class="lead-fade">
+          <div class="container">
+            <h2 class="lead-title">Motorola DynaTAC 8000X</h2>
+            <p class="lead-text">
+              Пожалуй лучший способ заслужить завистливые взгляды
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
+
+<section>
+  <div class="wrapper">
+    <div class="conteiner"></div>
+  </div>
+</section>
